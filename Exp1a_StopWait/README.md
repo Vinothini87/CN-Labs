@@ -37,8 +37,11 @@ while True:
     else:
         c.close()
         break
+```
 
-### client
+## client
+
+```python
 import socket
 s=socket.socket()
 s.connect(('localhost',8080))
@@ -61,7 +64,7 @@ hi
 welcome
 exit
 ```
-###Result
+### Result
 
 The Stop-and-Wait ARQ protocol was implemented successfully.
 The server sends data frames one at a time, and the client acknowledges each frame, ensuring reliable communication.
